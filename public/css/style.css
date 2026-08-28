@@ -1,15 +1,26 @@
-body {
-    background-image: url('../images/Afeefa.jpeg');
-    background-size: cover;
-    background-attachment: fixed;
+body { 
+    background-image: url('../images/Afeefa5.jpeg'); 
+    /* Stretches width to full screen and auto-calculates height */
+    background-size: 100% auto; 
     background-repeat: no-repeat;
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    background-attachment: scroll;
+    background-position: top center;
+    
+    /* FIX: Tells the browser how tall the body needs to be to show the whole image */
+    width: 100vw;
+    height: 120vh; /* Adjust this value if your image is very tall */
+    
+    font-family: Arial, sans-serif; 
+    margin: 0; 
+    padding: 0; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    flex-direction: column; 
+}
+
+.happy-rakhi{
+    color: rgb(252, 162, 177);
 }
 
 .buttons {
